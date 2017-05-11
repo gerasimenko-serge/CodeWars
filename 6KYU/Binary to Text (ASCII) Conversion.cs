@@ -1,4 +1,6 @@
-﻿using System;
+﻿// https://www.codewars.com/kata/5583d268479559400d000064
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 

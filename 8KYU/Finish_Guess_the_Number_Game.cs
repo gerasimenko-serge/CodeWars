@@ -1,4 +1,6 @@
-﻿using System;
+﻿// https://www.codewars.com/kata/568018a64f35f0c613000054
+
+using System;
 
 namespace Finish_Guess_the_Number_Game
 {

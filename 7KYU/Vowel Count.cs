@@ -2,6 +2,7 @@
 
 using System.Linq;
 using System.Collections.Generic;
+
 public static class Kata
 {
     public static int GetVowelCount(string str)
