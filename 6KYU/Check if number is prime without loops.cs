@@ -4,11 +4,12 @@ public class Kata
 {
     public bool IsPrime(int number)
     {
-        var t = Math.Abs(number);
-        var a = (int)t / 2;
-        var p = Enumerable.Range(2, (int)t / 2)
-            .Select(x => t % x != 0);
-        var p1 = p.Min();
-        return p1;
+        if (Math.Abs(number) > 1)
+        {
+            return Enumerable.Range(1, Math.Abs(number))
+                    .Where(x => Math.Abs(number) % x == 0)
+                    .SequenceEqual(new[] { 1, Math.Abs(number) });
+        }
+        return false;
     }
 }
